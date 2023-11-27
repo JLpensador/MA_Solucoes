@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(212, 212, 212);
+    overflow-x: hidden;
+}
+#Logo {
+    display: inline-block;
+  max-height: 56px;
+  max-width: 225px;
+  padding: 8px 4px 8px 12px;
+  vertical-align: middle;
+}
+
+#carrosel_img {
+   width: 25%;
+   height: 200%;
+}
+
+.texto {
+    color: #1c4587;
+}
+
+.fundo {
+    background-color: white;
+}

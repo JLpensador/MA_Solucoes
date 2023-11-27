@@ -1,0 +1,11 @@
+<ul id="ul2">
+            <img id="redes" src="images/redes.jpg">
+            <img id="DS" src="images/Desenvolvimento.jpg">
+            <img id="robotica" src="images/robotica.jpg">
+            <img id="enfermagem" src="images/ENFERMAGEM.jpeg">
+        </ul>
+        <ol>
+            <p id="p1">Redes</p>
+            <p id="p2">Desenvolvimento</p>
+            <p id="p3">Robótica</p>
+        </ol>
