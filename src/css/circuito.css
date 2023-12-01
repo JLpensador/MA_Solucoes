@@ -13,3 +13,17 @@ body {
   padding: 8px 4px 8px 12px;
   vertical-align: middle;
 }
+
+#Anjos {
+  color: white;
+  font-size: 64pt;
+  letter-spacing: 2px;
+  line-height: 1;
+  font-weight: 300;
+  position: relative;
+}
+
+#carrosel_img {
+  width: 28%;
+  height: 200%;
+}
