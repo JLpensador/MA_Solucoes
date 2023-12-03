@@ -8,6 +8,13 @@ body{
     margin: 0;
   padding: 0;
 }
+
+body, h1, h2, h3, p, div, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
 #Logo {
     display: inline-block;
   max-height: 56px;
@@ -28,3 +35,6 @@ body{
 .fundo {
     background-color: white;
 }
+
+@media screen and (max-width: 600px) {
+  }
