@@ -38,6 +38,20 @@ body {
   color: #1c4587;
 }
 
+.carousel-control-next {
+  right: 250px;
+}
+
+.carousel-control-prev {
+  left: 250px;
+}
+
+.navbar-collapse {
+  flex-basis: 100%;
+  flex-grow: 0;
+  align-items: center;
+}
+
 .calendar {
   max-width: 600px;
   margin: 50px auto;
