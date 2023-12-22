@@ -1,25 +1,31 @@
-body{
-    background-image: url(../images/fotodefundoinicial.png);
-    overflow-x: hidden;
-    background-size: cover;
-    background-attachment: fixed;
-    width: 100%;
-    height: 100%;
-    margin: 0;
+body {
+  background-image: url(../images/fotodefundoinicial.png);
+  overflow-x: hidden;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  margin: 0;
   padding: 0;
   touch-action: manipulation;
   font-family: Arial, sans-serif;
- 
 }
 
-body, h1, h2, h3, p, div, ul, li {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
+body,
+h1,
+h2,
+h3,
+p,
+div,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 #Logo {
-    display: inline-block;
+  display: inline-block;
   max-height: 56px;
   max-width: 225px;
   padding: 8px 4px 8px 12px;
@@ -27,25 +33,23 @@ body, h1, h2, h3, p, div, ul, li {
 }
 
 #carrosel_img {
-   width: 25%;
-   height: 200%;
+  width: 25%;
+  height: 200%;
 }
 
 .texto {
-    color: #1c4587;
+  color: #1c4587;
 }
 
 .fundo {
-    background-color: white;
+  background-color: white;
 }
 
 @media screen and (max-width: 600px) {
-  }
-
-
+}
 
 #Logo {
-    display: inline-block;
+  display: inline-block;
   max-height: 56px;
   max-width: 225px;
   padding: 8px 4px 8px 12px;
@@ -61,16 +65,22 @@ body, h1, h2, h3, p, div, ul, li {
   position: relative;
 }
 
-.carousel-control-next {
-  right: 250px;
-}
-
-.carousel-control-prev {
-  left: 250px;
-}
 
 .navbar-collapse {
   flex-basis: 100%;
   flex-grow: 0;
   align-items: center;
+}
+
+.g-4, .gx-4 {
+  --bs-gutter-x: 0.0rem;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  display: inline-block;
+  width: 5rem;
+  height: 5rem;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 100% 100%;
 }

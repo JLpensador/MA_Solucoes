@@ -1,0 +1,19 @@
+@media (max-width: 179) {
+    
+
+}
+
+@media (max-width: 425px) {
+  #Anjos {
+    font-size: 10pt;
+   
+  }
+}
+
+@media (max-width: 768px) {
+    .row-cols-md-4 > * {
+    flex: 0 0 auto;
+    width: 24%;
+  }
+}
+
