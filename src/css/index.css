@@ -81,3 +81,7 @@ li {
   background-position: 50%;
   background-size: 100% 100%;
 }
+
+.g-4, .gx-4 {
+  --bs-gutter-x: 0.0rem;
+}
