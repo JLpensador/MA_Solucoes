@@ -45,8 +45,7 @@ li {
   background-color: white;
 }
 
-@media screen and (max-width: 600px) {
-}
+
 
 #Logo {
   display: inline-block;
@@ -72,9 +71,7 @@ li {
   align-items: center;
 }
 
-.g-4, .gx-4 {
-  --bs-gutter-x: 0.0rem;
-}
+
 
 .carousel-control-next-icon, .carousel-control-prev-icon {
   display: inline-block;
