@@ -82,6 +82,14 @@ li {
   background-size: 100% 100%;
 }
 
+#botão {
+  width: 15%;
+}
+
+#botão2 {
+  width: 20%;
+}
+
 .g-4, .gx-4 {
   --bs-gutter-x: 0.0rem;
 }

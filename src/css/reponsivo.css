@@ -4,3 +4,13 @@
   }
 
 }
+
+@media (max-width: 725px) {
+  #botão {
+    width: 30%;
+  }
+
+  #botão2 {
+    width: 40%;
+  }
+}

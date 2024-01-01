@@ -21,13 +21,18 @@ body, h1, h2, h3, p, div, ul, li {
 
 }
 
+.navbar-collapse {
+  flex-basis: 100%;
+  flex-grow: 0;
+  align-items: center;
+}
 
 #Logo {
-    display: inline-block;
-  max-height: 56px;
-  max-width: 225px;
-  padding: 8px 4px 8px 12px;
-  vertical-align: middle;
+  display: inline-block;
+max-height: 56px;
+max-width: 225px;
+padding: 8px 4px 8px 12px;
+vertical-align: middle;
 }
 
 #Serviços{
@@ -39,31 +44,3 @@ body, h1, h2, h3, p, div, ul, li {
     position: relative;
 }
 
-.container {
-      display: inline-block;
-      border: 1px solid #000;
-      padding: 10px;
-      cursor: pointer;
-      position: relative;
-    }
-
-    .collapse {
-      display: none;
-      padding: 10px;
-      border: 1px solid #000;
-      margin-top: 10px;
-      opacity: 0;
-      visibility: hidden;
-      position: absolute;
-      width: 100%;
-      left: 0;
-      bottom: 0;
-      transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
-    }
-
-    .container:hover .collapse {
-      display: block;
-      opacity: 1;
-      visibility: visible;
-    }
-    
