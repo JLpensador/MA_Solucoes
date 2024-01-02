@@ -24,11 +24,19 @@ li {
   box-sizing: border-box;
 }
 
+#navbar {
+  font-family: sans-serif;
+  transition: background-color 0.3s ease;
+}
+.nav-item {
+  font-size: 18px;
+}
+
 #Logo {
   display: inline-block;
   max-height: 56px;
   max-width: 225px;
-  padding: 8px 4px 8px 12px;
+  padding: 8px 10px 8px 12px;
   vertical-align: middle;
 }
 
@@ -45,16 +53,6 @@ li {
   background-color: white;
 }
 
-
-
-#Logo {
-  display: inline-block;
-  max-height: 56px;
-  max-width: 225px;
-  padding: 8px 4px 8px 12px;
-  vertical-align: middle;
-}
-
 #Anjos {
   color: white;
   font-size: 64pt;
@@ -64,32 +62,42 @@ li {
   position: relative;
 }
 
-
 .navbar-collapse {
   flex-basis: 100%;
   flex-grow: 0;
   align-items: center;
 }
 
+.carousel-control-next,
+.carousel-control-prev {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  background: 0 0;
+  border: 0;
+  opacity: 0.5;
+  transition: opacity 0.15s ease;
+}
 
-
-.carousel-control-next-icon, .carousel-control-prev-icon {
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
   display: inline-block;
-  width: 5rem;
-  height: 5rem;
+  width: 4rem;
+  height: 4rem;
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: 100% 100%;
 }
 
-#botão {
-  width: 15%;
-}
-
-#botão2 {
-  width: 20%;
-}
-
-.g-4, .gx-4 {
-  --bs-gutter-x: 0.0rem;
+.g-4,
+.gx-4 {
+  --bs-gutter-x: 0rem;
 }

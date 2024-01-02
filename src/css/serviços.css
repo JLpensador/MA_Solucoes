@@ -15,6 +15,22 @@ body, h1, h2, h3, p, div, ul, li {
     padding: 0;
     box-sizing: border-box;
   }
+
+  #navbar {
+    font-family: sans-serif;
+    transition: background-color 0.3s ease;
+  }
+  .nav-item  {
+    font-size: 18px;
+  }
+  
+  #Logo {
+    display: inline-block;
+    max-height: 56px;
+    max-width: 225px;
+    padding: 8px 10px 8px 12px;
+    vertical-align: middle;
+  }
   
 .texto {
   color: #1c4587;
@@ -25,14 +41,6 @@ body, h1, h2, h3, p, div, ul, li {
   flex-basis: 100%;
   flex-grow: 0;
   align-items: center;
-}
-
-#Logo {
-  display: inline-block;
-max-height: 56px;
-max-width: 225px;
-padding: 8px 4px 8px 12px;
-vertical-align: middle;
 }
 
 #Serviços{

@@ -1,37 +1,36 @@
 body {
-    background-image: url(../images/circuito.png);
-    background-size: cover;
-    background-attachment: fixed;
-    width: 100%;
-    height: 100%;
+  background-image: url(../images/circuito.png);
+  overflow-x: hidden;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+padding: 0;
+touch-action: manipulation;
+}
+
+#navbar {
+  font-family: sans-serif;
+  transition: background-color 0.3s ease;
+}
+.nav-item  {
+  font-size: 18px;
 }
 
 #Logo {
-    display: inline-block;
+  display: inline-block;
   max-height: 56px;
   max-width: 225px;
-  padding: 8px 4px 8px 12px;
+  padding: 8px 10px 8px 12px;
   vertical-align: middle;
 }
 
-#Anjos {
-  color: white;
-  font-size: 64pt;
-  letter-spacing: 2px;
-  line-height: 1;
-  font-weight: 300;
-  position: relative;
-}
+
 
 #carrosel_img {
-  width: 28%;
+  width: 65%;
   height: 200%;
-}
-
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
 }
 
 .texto {
@@ -44,6 +43,35 @@ body {
   align-items: center;
 }
 
+.carousel-control-next,
+.carousel-control-prev {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  background: 0 0;
+  border: 0;
+  opacity: 0.5;
+  transition: opacity 0.15s ease;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  display: inline-block;
+  width: 4rem;
+  height: 4rem;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 100% 100%;
+}
+
 .calendar {
   max-width: 600px;
   margin: 50px auto;
@@ -53,7 +81,7 @@ body {
 }
 
 .header {
-  background-color: rgba(30,108,147,1);
+  background-color: rgba(30, 108, 147, 1);
   color: #fff;
   text-align: center;
   padding: 10px;
@@ -71,21 +99,19 @@ body {
 }
 
 /* Estilizando os fins de semana */
-.day:nth-child(7n), .day:nth-child(7n-1) {
+.day:nth-child(7n),
+.day:nth-child(7n-1) {
   background-color: #f5f5f5;
 }
 
-
-
-
-
 /* Estilizando os fins de semana */
-.day:nth-child(7n), .day:nth-child(7n-1) {
+.day:nth-child(7n),
+.day:nth-child(7n-1) {
   background-color: #f5f5f5;
 }
 
 .evento {
-  background-color: rgba(30,108,147,1);
+  background-color: rgba(30, 108, 147, 1);
   color: #fff;
   padding: 5px;
   border-radius: 3px;
@@ -94,43 +120,28 @@ body {
 
 /* Estilo para realçar o dia atual */
 .today {
-  background-color: rgba(30,108,147,1);
+  background-color: rgba(30, 108, 147, 1);
   color: white;
 }
 
-#tabela{
-
+#tabela {
   border: solid black 2px;
   height: 50%;
   width: 50%;
   border-style: none;
-  
-  
-  }
-  
-  #cabeca{
-  
-  background-color: #1c4587;
-  color: #f2f5f7;
-  
-  }
-  
-  
-  th{
-      
-      border: solid 2px black;
-      
-  }
-
-  .carousel-control-next-icon, .carousel-control-prev-icon {
-  display: inline-block;
-  width: 5rem;
-  height: 5rem;
-  background-repeat: no-repeat;
-  background-position: 50%;
-  background-size: 100% 100%;
 }
 
-.g-4, .gx-4 {
-  --bs-gutter-x: 0.0rem;
+#cabeca {
+  background-color: #1c4587;
+  color: #f2f5f7;
+}
+
+th {
+  border: solid 2px black;
+}
+
+
+.g-4,
+.gx-4 {
+  --bs-gutter-x: 0rem;
 }
