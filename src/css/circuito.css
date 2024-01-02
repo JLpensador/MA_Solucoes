@@ -11,7 +11,7 @@ touch-action: manipulation;
 }
 
 #navbar {
-  font-family: sans-serif;
+   font-family: sans-serif;
   transition: background-color 0.3s ease;
 }
 .nav-item  {
@@ -27,6 +27,14 @@ touch-action: manipulation;
 }
 
 
+#Anjos {
+  color: white;
+  font-size: 64pt;
+  letter-spacing: 2px;
+  line-height: 1;
+  font-weight: 500;
+  position: relative;
+}
 
 #carrosel_img {
   width: 65%;

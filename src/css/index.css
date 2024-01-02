@@ -36,7 +36,7 @@ li {
   display: inline-block;
   max-height: 56px;
   max-width: 225px;
-  padding: 8px 10px 8px 12px;
+  padding: 8px 12px 8px 12px;
   vertical-align: middle;
 }
 
@@ -58,7 +58,7 @@ li {
   font-size: 64pt;
   letter-spacing: 2px;
   line-height: 1;
-  font-weight: 300;
+  font-weight: 500;
   position: relative;
 }
 
