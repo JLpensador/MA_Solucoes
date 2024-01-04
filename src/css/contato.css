@@ -1,0 +1,39 @@
+body {
+  background-image: url(../images/contato.png);
+  overflow-x: hidden;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  margin: 0;
+  padding: 100;
+  touch-action: manipulation;
+  background-repeat: no-repeat;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.linha {
+  border: 1px solid black;
+  position: absolute;
+  width: 100%;
+}
+
+.mapbox {
+  position: relative;
+  width: 600px;
+  height: 500px;
+  background: #fff;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.mapbox iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+}
