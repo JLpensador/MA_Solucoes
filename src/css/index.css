@@ -101,3 +101,11 @@ li {
 .gx-4 {
   --bs-gutter-x: 0rem;
 }
+
+#botão {
+  width: 20%;
+}
+
+#botão2 {
+  width: 24%;
+}

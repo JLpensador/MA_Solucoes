@@ -1,0 +1,46 @@
+body {
+  background-image: url(../images/sobre.png);
+  overflow-x: hidden;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  touch-action: manipulation;
+}
+
+.custom-img {
+  width: 100%;
+  height: auto;
+  max-width: 200px;
+}
+
+.custom-card {
+  max-width: 170px;
+  justify-content: center;
+}
+
+.custom-card2{
+  max-width: 100%;
+  justify-content: center;
+}
+
+#botão {
+  width: 25%;
+}
+
+.list-unstyled {
+  padding-left: 0;
+  list-style: disc;
+}
+
+.custom-list {
+  max-width: 215px;
+  justify-content: center;
+}
+
+.custom-row {
+  margin-right: -5px;
+  margin-left: 50px;
+}
