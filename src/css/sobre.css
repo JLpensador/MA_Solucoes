@@ -44,3 +44,7 @@ body {
   margin-right: -5px;
   margin-left: 50px;
 }
+
+#junior {
+  max-width: 73%;
+}

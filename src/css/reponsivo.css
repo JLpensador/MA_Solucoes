@@ -1,16 +1,32 @@
 @media (max-width: 425px) {
+
   #Anjos {
     font-size: 35pt;
   }
 
+  .custom-row {
+    margin-right: -5px;
+    margin-left: 0px;
+  }
+
+  #junior {
+    max-width: 100%;
+    left: 10%;
+  }
 }
 
 @media (max-width: 725px) {
+
   #botão {
     width: 30%;
   }
 
   #botão2 {
     width: 40%;
+  }
+
+  #junior {
+    max-width: 80%;
+    left: 10%;
   }
 }
