@@ -9,7 +9,25 @@ body {
   overflow-x: hidden;
   background-size: cover;
   background-attachment: fixed;
-  width: 100vw;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  touch-action: manipulation;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    overflow-x: hidden;
+  }
+}
+
+body {
+  background-image: url(../images/sobre.png);
+  overflow-x: hidden;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
   height: 100%;
   margin: 0;
   padding: 0;
