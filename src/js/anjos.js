@@ -1,10 +1,9 @@
 function adicionarEventos() {
-    const diasDoMes = document.querySelectorAll('.day:not(.header)');
-    
-   }
+  const diasDoMes = document.querySelectorAll(".day:not(.header)");
+}
 
-  adicionarEventos();
+adicionarEventos();
 
 const diaAtual = new Date().getDate();
 
-diasDoMes[diaAtual - 1].classList.add('today');
+diasDoMes[diaAtual - 1].classList.add("today");
