@@ -13,21 +13,23 @@
     max-width: 100%;
     left: 10%;
   }
+
 }
 
-@media (max-width: 725px) {
 
+@media (max-width: 725px) {
+  
   #carrosel_img {
     width: 100%;
     height: 200%;
   }
 
   .carousel-control-next,
-.carousel-control-prev {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  z-index: 1;
+  .carousel-control-prev {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -51,16 +53,23 @@
   background-size: 100% 100%;
 }
 
-  #botão {
-    width: 30%;
-  }
-
-  #botão2 {
-    width: 40%;
-  }
-
-  #junior {
-    max-width: 80%;
-    left: 10%;
-  }
+#botão {
+  width: 30%;
 }
+
+#botão2 {
+  width: 40%;
+}
+
+#junior {
+  max-width: 80%;
+  left: 10%;
+}
+
+.mapbox 
+{
+  width: 100%;
+}
+
+}
+

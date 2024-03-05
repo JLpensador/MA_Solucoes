@@ -55,20 +55,23 @@ body {
 }
 
 .list-unstyled {
-  padding-left: 0;
   list-style: disc;
+  margin: 0 auto;
+
 }
 
 .custom-list {
-  max-width: 215px;
+
   justify-content: center;
+  margin: 0 auto;
 }
 
 .custom-row {
-  margin-right: -5px;
-  margin-left: 50px;
+  width: 50%;
+  margin: 0 auto;
 }
 
 #junior {
   max-width: 73%;
 }
+
