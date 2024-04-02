@@ -1,4 +1,4 @@
 window.addEventListener('load', function() {
     var loader = document.getElementById('loader');
-    loader.parentNode.removeChild(loader); // Remove a div do loader do DOM
+    loader.parentNode.removeChild(loader);
 });
